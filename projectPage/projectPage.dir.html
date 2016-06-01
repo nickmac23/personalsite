@@ -13,10 +13,17 @@
     <a href="#">Contact</a>
   </header>
 
-  <div class='col-lg-8 col-lg-offset-2 img'> <img src="http://fillmurray.com/900/220" alt="">
+  <div class='col-lg-8 col-lg-offset-2 img'> <img src="{{vm.img}}" alt="">
 
   </div>
-  <h1 class='col-lg-12'>{{vm.title}}</h1>
+  <h1 class='col-lg-12'>{{vm.project.title}}</h1>
+  <div class='col-lg-8 col-lg-offset-2 content'>
+    <section class='col-lg-12'>
+      <span ng-repeat='skill in vm.project.skills'><i class="fa fa-check" aria-hidden="true" ></i>{{skill}}</span>
+    </section>
+    <br>
+    <div>{{vm.project.short}}</div>
+  </div>
 
 </main>
 <style>
@@ -65,5 +72,14 @@
   }
   img{
     width: 100%;
+  }
+  .content{
+    text-align: center;
+  }
+  span{
+    font-size: 20px;
+  }
+  span i {
+    color: rgb(208, 238, 18);
   }
 </style>
