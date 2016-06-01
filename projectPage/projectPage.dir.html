@@ -13,7 +13,7 @@
     <a href="#">Contact</a>
   </header>
 
-  <div class='col-lg-8 col-lg-offset-2 img'> <img src="{{vm.img}}" alt="">
+  <div class='col-lg-8 col-lg-offset-2 img'> <img src="{{vm.project.imgBig}}" alt="">
 
   </div>
   <h1 class='col-lg-12'>{{vm.project.title}}</h1>
@@ -22,7 +22,8 @@
       <span ng-repeat='skill in vm.project.skills'><i class="fa fa-check" aria-hidden="true" ></i>{{skill}}</span>
     </section>
     <br>
-    <div>{{vm.project.short}}</div>
+    <div>{{vm.project.content}}</div>
+    <a href="{{vm.project.url}}">Visit the Site</a> | <a href="{{vm.project.git}}"> How about GitHub</a>
   </div>
 
 </main>
@@ -77,7 +78,7 @@
     text-align: center;
   }
   span{
-    font-size: 20px;
+    font-size: 15px;
   }
   span i {
     color: rgb(208, 238, 18);
