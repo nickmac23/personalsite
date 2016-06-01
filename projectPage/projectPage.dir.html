@@ -1,33 +1,45 @@
-<nav class='col-lg-12 col-sm-lg head'>
-    <a ui-sref='home'><img src="/pic/nickpic.png" alt=""></a>
-  <section>
-    <a href='https://github.com/nickmac23'><i class="fa fa-github fa-3x" ></i></a>
-    <a href='https://www.linkedin.com/in/nicholas-macintyre-2b497010a'><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-    <a href='https://plus.google.com/100957844752300808084'><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a>
-  </section>
-</nav>
-<main class='col-lg-12'>
-  <header class='col-lg-6 col-lg-offset-3'>
-    <a ui-sref="home">Portfolio</a>
-    <a ui-sref="projectPage">About Me</a>
-    <a href="#">Contact</a>
-  </header>
-
-  <div class='col-lg-8 col-lg-offset-2 img'> <img src="{{vm.project.imgBig}}" alt="">
-
-  </div>
-  <h1 class='col-lg-12'>{{vm.project.title}}</h1>
-  <div class='col-lg-8 col-lg-offset-2 content'>
-    <section class='col-lg-12'>
-      <span ng-repeat='skill in vm.project.skills'><i class="fa fa-check" aria-hidden="true" ></i>{{skill}}</span>
+<div class='all'>
+  <nav class='col-lg-12 col-sm-lg head'>
+      <a ui-sref='home'><img src="/pic/nickpic.png" alt=""></a>
+    <section>
+      <a href='https://github.com/nickmac23'><i class="fa fa-github fa-3x" ></i></a>
+      <a href='https://www.linkedin.com/in/nicholas-macintyre-2b497010a'><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+      <a href='https://plus.google.com/100957844752300808084'><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a>
     </section>
-    <br>
-    <div>{{vm.project.content}}</div>
-    <a href="{{vm.project.url}}">Visit the Site</a> | <a href="{{vm.project.git}}"> How about GitHub</a>
-  </div>
+  </nav>
+  <main class='col-lg-12'>
+    <header class='col-lg-6 col-lg-offset-3'>
+      <a ui-sref="home">Portfolio</a>
+      <a ui-sref="projectPage">About Me</a>
+      <a href="#">Contact</a>
+    </header>
 
-</main>
+    <div class='col-lg-8 col-lg-offset-2 img'> <img src="{{vm.project.imgBig}}" alt="">
+
+    </div>
+    <h1 class='col-lg-12'>{{vm.project.title}}</h1>
+    <div class='col-lg-8 col-lg-offset-2 content'>
+      <section class='col-lg-12'>
+        <span ng-repeat='skill in vm.project.skills'><i class="fa fa-check" aria-hidden="true" ></i>{{skill}}</span>
+      </section>
+      <br>
+      <div>{{vm.project.content}}</div>
+      <a href="{{vm.project.url}}">Visit the Site</a> | <a href="{{vm.project.git}}"> How about GitHub</a>
+    </div>
+
+  </main>
+  <div class="col-lg-12 spacer"></div>
+</div>
 <style>
+  .all{
+    z-index: 50;
+  }
+  main{
+    border: solid grey 3px;
+    background-color: white;
+    padding-bottom: 100px;
+
+  }
   nav.head{
     background-color: rgb(16, 70, 180);
     color: rgb(153, 160, 167);
@@ -82,5 +94,8 @@
   }
   span i {
     color: rgb(208, 238, 18);
+  }
+  .spacer{
+    height: 100px;
   }
 </style>
