@@ -1,7 +1,8 @@
 (function() {
   'use strict';
   var dependencies = [
-    'ui.router'
+    'ui.router',
+    'ngAnimate'
   ];
 
 
@@ -18,7 +19,21 @@
         url: "/",
         template: "<landing></landing>"
       })
+    $stateProvider
+      .state('projectPage', {
+        url: "/",
+        template: "<project-page></project-page>",
+        controller: function ($scope) {
+          $scope.vm = {}
+          $scope.vm.title = 'Asteroid'
+        }
+      })
+
   }
+
+
+
+
 
 
 }());

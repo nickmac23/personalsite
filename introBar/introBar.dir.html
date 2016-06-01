@@ -1,4 +1,4 @@
-  <nav class='col-lg-12 col-sm-lg'>
+  <nav class='col-lg-12 col-sm-lg head'>
     <img src="/pic/nickpic.png" alt="">
     <h1>Welcome! I'm Nicholas MacIntyre</h1>
     <h3>Full Stack Web Developer</h3>
@@ -11,21 +11,34 @@
 
   <main class='col-lg-12'>
     <header class='col-lg-6 col-lg-offset-3'>
-      <a href="#">Portfolio</a>
-      <a href="#">About Me</a>
+      <a ui-sref="home">Portfolio</a>
+      <a ui-sref="projectPage">About Me</a>
       <a href="#">Contact</a>
     </header>
 
+    <h1 class='col-lg-12'>Portfolio</h1>
+
+    <div class=" col-lg-10 col-lg-offset-1 container">
+      <a ui-sref='{{prj.url}}' ng-repeat='prj in vm.projects'><div class='col-lg-4 display' ng-mouseenter="hover=true" ng-mouseleave="hover=false">
+         <div class='col-lg-12 prj' style='background: url("{{prj.img}}")'>
+           <footer class='footer' ng-show="hover">
+              <p class='title'>{{prj.title}}</p>
+                <p class='content'>{{prj.content}}</p>
+            </footer>
+          </div>
+        </div></a>
+    </div>
   </main>
 
 <style>
-  nav{
-    position: fixed;
+  .head{
+    position:fixed;
+    top: 0;
     padding: 10px;
     background-color: rgb(16, 70, 180);
-    /*height: 310px;*/
     color: rgb(153, 160, 167);
     text-align: center;
+    height: 350px;
   }
   nav img {
     border-radius: 50%;
@@ -51,7 +64,57 @@
     margin-right: 40px;
     font-size: 20px;
     color: black;
-
   }
+  h1{
+    margin-top: 10px;
+    text-align: center;
+  }
+  main {
+    position: relative;
+    z-index:50;
+    border-top: solid grey 3px;
+    top: 300px;
+    background-color: white;
+  }
+  .display{
+    display: block;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 51;
+    background-color: white;
+  }
+  .prj {
+    border: solid black 3px;
+    height: 220px;
+    position: relative;
+  }
+  footer.footer {
+    padding-top: 5px;
+    padding-left: 10px;
+    background-color: black;
+    color: rgb(251, 249, 48);
+    position: absolute;
+    bottom: 0;
+    left:0;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+  }
+  .footer p.title{
+    font-size: 20px
+  }
+  .footer p:nth-child(2){
+    margin-top: -10px;
+    color: white;
+  }
+  .ng-hide-remove{
+    animation: slideInUp .3s;
+  }
+  .ng-hide-add{
+    animation: slideOutDown .75s;
+    bottom: 20px;
+  }
+
 
 </style>
