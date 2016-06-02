@@ -1,6 +1,6 @@
 <div class='all'>
   <nav class='col-lg-12 col-sm-lg head'>
-      <a ui-sref='home'><img src="/pic/nickpic.png" alt=""></a>
+      <a ui-sref='home' class='col-lg-2 name'><h3>Nick MacIntyre</h3></a>
     <section>
       <a href='https://github.com/nickmac23'><i class="fa fa-github fa-3x" ></i></a>
       <a href='https://www.linkedin.com/in/nicholas-macintyre-2b497010a'><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
@@ -14,7 +14,7 @@
       <a href="#">Contact</a>
     </header>
 
-    <div class='col-lg-8 col-lg-offset-2 img'> <img src="{{vm.project.imgBig}}" alt="">
+    <div class='col-lg-8 col-lg-offset-2 img' > <img src="{{vm.project.imgBig}}" alt="" style='width: 100%'>
 
     </div>
     <h1 class='col-lg-12'>{{vm.project.title}}</h1>
@@ -51,7 +51,6 @@
     display: inline-block;
   }
   section{
-    margin-top: 30px;
     display: inline-block;
     float: right;
   }
@@ -84,6 +83,7 @@
     padding: 30px;
   }
   img{
+    border: solid rgb(128, 135, 132) 1px;
     width: 100%;
   }
   .content{

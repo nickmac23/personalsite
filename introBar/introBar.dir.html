@@ -1,6 +1,5 @@
   <nav class='col-lg-12 col-sm-lg head'>
-    <img src="/pic/nickpic.png" alt="">
-    <h1>Welcome! I'm Nicholas MacIntyre</h1>
+    <h1>Welcome! I'm Nick MacIntyre</h1>
     <h3>Full Stack Web Developer</h3>
     <section>
       <a href='https://github.com/nickmac23'><i class="fa fa-github fa-3x" ></i></a>
@@ -20,7 +19,8 @@
 
     <div class=" col-lg-10 col-lg-offset-1 container">
       <a ui-sref='project({name: prj.title})' ng-repeat='prj in vm.projects'><div class='col-lg-4 display' ng-mouseenter="hover=true" ng-mouseleave="hover=false">
-         <div class='col-lg-12 prj' style='background: url("{{prj.img}}")'>
+         <div class='col-lg-12 prj' style='background: url("{{prj.img}}");     background-size: 100% 100%;
+             background-repeat: no-repeat;'>
            <footer class='footer' ng-show="hover">
               <p class='title'>{{prj.title}}</p>
                 <p class='content'>{{prj.short}}</p>
@@ -75,7 +75,7 @@
     position: relative;
     z-index:50;
     border: solid grey 3px;
-    top: 300px;
+    top: 200px;
     background-color: white;
   }
   .display{
@@ -90,6 +90,7 @@
     border: solid black 3px;
     height: 220px;
     position: relative;
+
   }
   footer.footer {
     padding-top: 5px;
@@ -109,6 +110,7 @@
   .footer p:nth-child(2){
     margin-top: -10px;
     color: white;
+    font-size: 12px;
   }
   .ng-hide-remove{
     animation: slideInUp .3s;
