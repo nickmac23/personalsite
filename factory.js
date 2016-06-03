@@ -14,7 +14,7 @@
           img: 'images/Screen Shot 2016-06-02 at 4.40.55 PM.png',
           skills: ['HTML Canvas', 'CSS', 'JavaScript', 'JQuery', 'FireBase'],
           imgBig: 'images/Screen Shot 2016-06-02 at 5.03.00 PM.png',
-          content: 'Lorem Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          content: "Thank you for your interest in Asteroid Field, my very first project. This game is a remake of Atari's Asteroids, an arcade style game in which a spaceship fights for survival in an asteroid field. Gameplay was made entirely using HTML5 canvas element and JavaScript. Additionally I used CSS, SASS and Jquery for styling the site. The game includes four different ships, three asteroid types with different behaviors and an updating score tally. User’s high scores  are saved and compared in a Firebase database which I utilize for creating a high score leader board. Currently I am working with sockets to create a multiplayer version, check it out on <a href='https://github.com/nickmac23/pongsock'>github.</a>  Click below to visit the site and see if you can get the new highscore. I hope you enjoy the game.",
           url: 'https://astroidz.firebaseapp.com',
           git: 'https://github.com/nickmac23/astroid',
 
@@ -25,7 +25,7 @@
           skills: ['HTML/CSS', 'Socket.io', 'Handlebars.js', 'Node.js', 'Knex.js', 'SQL', 'Express', 'cookieParser', 'bcrypt'],
           img: 'images/Screen Shot 2016-06-02 at 4.46.29 PM.png',
           imgBig: 'images/socketLong.png',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          content: "SocketChat was created in a day as part of a hackaton. In this project I worked with one other person to create an instant messaging crud app with the intent of learning socket.io. Users can create new chat rooms and message each other in real time. All messages are then saved and displayed only in the chat room in which they were created. Additional features include google OAuth and Cookie based authentication.",
           url: 'https://hackathon-socket-express.herokuapp.com/',
           git: 'https://github.com/nickmac23/socketExpress',
         },
@@ -35,7 +35,7 @@
           skills: ['HTML/CSS', 'SASS', 'Socket.io', 'Handlebars.js', 'Google Maps API', 'Node.js', 'Knex.js', 'SQL', 'Express', 'cookieParser', 'bcrypt', 'OAuth'],
           img: 'images/Screen Shot 2016-06-02 at 4.47.18 PM.png',
           imgBig: 'images/whereaboutslong.png',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          content: "Whereabouts is a community-powered map for overlooked points-of-interests which was created as part of a week long group project. It captures hidden gems that only a true local would know, giving the user a more authentic experience than what other travel-sites can offer. To create a entry a user can simply whip out their phone, and use google maps API to lock onto their location. All posts are saved in a postgresql database which can be filtered and viewed by location and distance. Popular posts are upvoted allowing for community reliability and more exciting points of interest to be displayed to the user quicker. \n This project was created prior to me learning angular and as a result I utilized socket.io and jquery to semlessly render new information to the screen without the need of a page refresh. Whereabouts gets its charm from its content and is in desperate need of more. Please visit the site and add your own. For more information about where I have been, visit my user page: https://where-a-bouts.herokuapp.com/users/13.",
           url: 'http://where-a-bouts.herokuapp.com/',
           git: 'https://github.com/blakeface/whereabouts',
 
