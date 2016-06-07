@@ -47,7 +47,7 @@
           skills: ['HTML/CSS', 'Bootstrap', 'Angular.js', 'UI-Router', 'Ng-Animate', 'Node.js', 'Knex.js', 'SQL', 'Express', 'JSON Web Tokens', 'bcrypt'],
           img: 'images/Screen Shot 2016-06-02 at 4.52.26 PM.png',
           imgBig: 'images/Screen Shot 2016-06-02 at 4.52.43 PM.png',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          content: "Reddit clone was created as a way hone my angular skills. I designed the site to look and feel like reddit in order to give this unassuming crud app more flare. Security was a big interest of mine and as a result Reddit clone utilizes json web tokens and HTTP interceptors to check for user validity. ",
           url: 'https://redditclonenick.firebaseapp.com',
           git: 'https://github.com/nickmac23/reddit_clone_new',
 
@@ -59,7 +59,7 @@
           skills: ['HTML/CSS', 'Bootstrap', 'SASS', 'Angular.js', 'UI-Router', 'Ng-Animate', 'Ionic', 'Socket.io', 'Gulp', 'Node.js', 'Knex.js', 'SQL', 'Express', 'JSON Web Tokens', 'bcrypt', 'Google Charts API'],
           img: 'images/Screen Shot 2016-06-02 at 4.48.17 PM.png',
           imgBig: 'images/Screen Shot 2016-06-02 at 4.49.23 PM.png',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          content: 'Grasp is an educational app. It utilizes socket.io and google charts api inorder to give teachers an realtime look at how much there class understands the lecture. By utilizing the web or phone app, students can choose between a state of understanding the lecture or not. Every time a student changes state the graph is updated and total class understandings are displayed. ',
           url: 'https://panic-button-c784e.firebaseapp.com/',
           git: 'https://github.com/slytton/panic-button',
 

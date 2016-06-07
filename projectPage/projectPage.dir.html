@@ -9,15 +9,12 @@
   </nav>
   <main class='col-lg-12'>
     <header class='col-lg-6 col-lg-offset-3'>
-      <a ui-sref="home">Portfolio</a>
-      <a ui-sref="projectPage">About Me</a>
-      <a href="#">Contact</a>
+      <a ui-sref="home">{{vm.project.title}}</a>
     </header>
 
     <div class='col-lg-8 col-lg-offset-2 img' > <img src="{{vm.project.imgBig}}" alt="" style='width: 100%'>
 
     </div>
-    <h1 class='col-lg-12'>{{vm.project.title}}</h1>
     <div class='col-lg-8 col-lg-offset-2 content'>
       <section class='col-lg-12'>
         <span ng-repeat='skill in vm.project.skills'><i class="fa fa-check" aria-hidden="true" ></i>{{skill}}</span>
