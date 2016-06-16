@@ -11,9 +11,13 @@
       controller,
     }
 
-    function controller ($scope, info, $state) {
+    function controller ($scope, info, $state, $sce) {
       $scope.vm = {};
       $scope.vm.project = onLoad();
+
+      $scope.trustHtml = function (src){
+          return $sce.trustAsHtml(src)
+      }
 
       function onLoad () {
         for (var i = 0; i < info.data.length; i++) {

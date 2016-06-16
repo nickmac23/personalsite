@@ -20,7 +20,7 @@
         <span ng-repeat='skill in vm.project.skills'><i class="fa fa-check" aria-hidden="true" ></i>{{skill}}</span>
       </section>
       <br>
-      <div>{{vm.project.content}}</div>
+      <div ng-bind-html='trustHtml(vm.project.content)'></div>
       <a href="{{vm.project.url}}">Visit the Site</a> | <a href="{{vm.project.git}}"> How about GitHub</a>
     </div>
 
