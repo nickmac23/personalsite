@@ -30,16 +30,15 @@
           git: 'https://github.com/nickmac23/socketExpress',
         },
         {
-          title: 'WhereAbouts',
-          short: 'A site that displays places of intrerest near you!',
-          skills: ['HTML/CSS', 'SASS', 'Socket.io', 'Handlebars.js', 'Google Maps API', 'Node.js', 'Knex.js', 'SQL', 'Express', 'cookieParser', 'bcrypt', 'OAuth'],
-          img: 'images/Screen Shot 2016-06-02 at 4.47.18 PM.png',
-          imgBig: 'images/whereaboutslong.png',
-          content: "Whereabouts is a community-powered map for overlooked points-of-interest that was created as part of a week long group project. It captures hidden gems that only a true local would know, giving the user a more authentic experience than what other travel sites can offer. To create an entry a user can simply whip out their phone, and use Google maps API to lock onto their location. All posts are saved in a postgresql database which can be filtered and viewed by location and distance. Popular posts are upvoted allowing for community reliability and more exciting points of interest to be displayed to the user quicker. \nI created this project prior to me learning Angular. With the goal to seamlessly render new information to the page without a refresh I utilized socket.io and jQuery. Whereabouts gets its charm from its content and is in desperate need of more. Please visit the site and add your own. For more information about where I have been visit <a href='https://where-a-bouts.herokuapp.com/users/13'>my user page.</a>",
-          url: 'http://where-a-bouts.herokuapp.com/',
-          git: 'https://github.com/blakeface/whereabouts',
 
-
+          title: 'MusicPrj',
+          short: 'Controll the music played on your machine remotley',
+          skills: ['Electron', 'Ionic', 'Angular.js', 'Socket.io', 'Node.js', 'Express', 'HTML/CSS'],
+          img: 'images/MusicPrj.png',
+          imgBig: 'images/MusicPrj.png',
+          content: "",
+          url: 'https://music-ee68e.firebaseapp.com/',
+          git: 'https://github.com/nickmac23/WebClientMusicPrj',
         },
         {
           title: 'RedditClone',
@@ -66,14 +65,15 @@
 
         },
         {
-          title: 'Portfolio',
-          short: 'This site! How did I make it?',
-          skills: ['HTML/CSS', 'Bootstrap', 'Angular.js', 'UI-Router', 'Ng-Animate'],
-          img: 'http://fillmurray.com/350/220',
-          imgBig: 'http://fillmurray.com/880/220',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-          url: '',
-          git: 'https://github.com/nickmac23/personalsite',
+          title: 'WhereAbouts',
+          short: 'A site that displays places of intrerest near you!',
+          skills: ['HTML/CSS', 'SASS', 'Socket.io', 'Handlebars.js', 'Google Maps API', 'Node.js', 'Knex.js', 'SQL', 'Express', 'cookieParser', 'bcrypt', 'OAuth'],
+          img: 'images/Screen Shot 2016-06-02 at 4.47.18 PM.png',
+          imgBig: 'images/whereaboutslong.png',
+          content: "Whereabouts is a community-powered map for overlooked points-of-interest that was created as part of a week long group project. It captures hidden gems that only a true local would know, giving the user a more authentic experience than what other travel sites can offer. To create an entry a user can simply whip out their phone, and use Google maps API to lock onto their location. All posts are saved in a postgresql database which can be filtered and viewed by location and distance. Popular posts are upvoted allowing for community reliability and more exciting points of interest to be displayed to the user quicker. \nI created this project prior to me learning Angular. With the goal to seamlessly render new information to the page without a refresh I utilized socket.io and jQuery. Whereabouts gets its charm from its content and is in desperate need of more. Please visit the site and add your own. For more information about where I have been visit <a href='https://where-a-bouts.herokuapp.com/users/13'>my user page.</a>",
+          url: 'http://where-a-bouts.herokuapp.com/',
+          git: 'https://github.com/blakeface/whereabouts',
+
 
 
         }
